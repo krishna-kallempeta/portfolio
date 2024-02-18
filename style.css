@@ -2,42 +2,90 @@
     padding: 0;
     margin: 0;
 }
-.user{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 22px;
+@media (min-width:600px){
+    .user{
+        transition: .4s;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 22px;
+    }
+    .container{
+        width: 700px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        margin: 30px auto;
+    }
+    .discription{
+        margin-top: 30px;
+        
+        
+      
+    }
+    .h3{
+        margin-top: 30px;
+    }
+    .class{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .btn{
+        transition: .4s;
+        padding: 8px;
+        margin-top: 80px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 12px;
+    }
+    span{
+        font-weight: 900;
+        text-decoration: underline;
+    }
+
 }
-.container{
-    width: 700px;
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    margin: 30px auto;
+@media (max-width:600px){
+    .user{
+        transition: .4s;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 60%;
+    }
+    .container{
+       
+        text-align: center;
+       
+        margin: 30px auto;
+    }
+    .discription{
+        margin-top: 30px;
+        
+        
+      
+    }
+    .h3{
+        margin-top: 30px;
+    }
+    .class{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .btn{
+        transition: .4s;
+        padding: 8px 8px;
+        margin-top: 40px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 22px;
+
+    }
+    span{
+        font-weight: 700;
+        text-decoration: underline;
+    }
 }
-.discription{
-    margin-top: 30px;
-    
-    
-  
-}
-.h3{
-    margin-top: 30px;
-}
-.class{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.btn{
-    padding: 8px;
-    margin-top: 80px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border-radius: 12px;
-}
-span{
-    font-weight: 900;
-    text-decoration: underline;
-}
+
 
